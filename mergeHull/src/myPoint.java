@@ -6,10 +6,16 @@
  * To change this template use File | Settings | File Templates.
  */
 public class myPoint {
-    public double x;
-    public double y;
-    public myPoint(double x,double y){
+    public long x;
+    public long y;
+    public myPoint(long x,long y){
         this.x=x;
         this.y=y;
+    }
+    public long getX(){
+        return this.x;
+    }
+    public long getY(){
+        return this.y;
     }
 }
